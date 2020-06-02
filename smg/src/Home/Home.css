@@ -29,6 +29,17 @@ justify-content: space-evenly;
   background-size: cover;
  }
 
+ .smg-home{
+   font-size: 5em;
+   padding: 3px;
+   margin: 2px;
+   animation: fadeIn;
+   animation-duration: 2s;
+   
+ }
+
+
+
  .item3 {
   flex-grow: 1;
  }
@@ -39,9 +50,15 @@ justify-content: space-evenly;
   -o-background-size: cover;
   background-size: cover;
  }
- .home-main-section-container {
-   margin-top: 15vh;
+
+ .item4 {
+  background: url(../images/ang.JPG) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
  }
+ 
 
  .home-smg-title {
    font-size: 6rem;
@@ -51,6 +68,9 @@ justify-content: space-evenly;
    font-family: 'Staatliches', cursive;
  }
 
+ .S{
+  color: goldenrod;
+ }
 
  .home-smg-description {
    line-height: 150%;
@@ -60,8 +80,22 @@ justify-content: space-evenly;
     padding: 13px
  }
 
+ .good{
+  animation: fadeInLeft;
+  animation-duration: 4s;
+ }
  .more {
-  color: goldenrod;
+  animation: fadeInLeft;
+  animation-duration: 3s;
+ }
+ 
+ .home-smg-description{
+  animation: fadeIn;
+  animation-duration: 5s;
+ }
+ .see{
+  animation: fadeInLeft;
+  animation-duration: 2s;
  }
 
  .home-contact-button {
