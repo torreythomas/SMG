@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Home.css"
-import Navbar from "../Nav/Nav"
+import { Link } from "react-router-dom";
+import WWA from "../WWA/WWA"
 
 const Home = () => {
 
@@ -16,7 +17,9 @@ return(
             <h1 className="home-smg-title good"> <b className="S">G</b>.OOD</h1>
             <p className="home-smg-description">
         An initiative designed to spread more positive images to the youth of Central Pennsylvania through the game of basketball and financial literacy knowledge. </p>
-            <a className=" grow home-contact-button" href="mailto:destinedfordollars@gmail.com">Who Are We?</a> 
+       < Link className="nav-link   grow  animate__animated animate_Bounce" to="/WWA"> 
+        <a className=" grow home-contact-button">Who Are We?</a> 
+</Link> 
         </div>
   <div className="home-column item2 grow dib shadow5"></div>
   <div className="home-column item3 grow dib shadow5"></div>
