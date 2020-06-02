@@ -1,0 +1,19 @@
+.flex-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+}
+
+.flex-image-1 {
+  background: url(../images/melik.JPG) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+  justify-self: flex-end;
+}
