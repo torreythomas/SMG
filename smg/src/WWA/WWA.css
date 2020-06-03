@@ -2,11 +2,57 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
   height: 50vh;
 }
 
+#WWA-landing-section {
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+}
+
 .flex-image-1 {
-  background: url(../images/melik.JPG) no-repeat center center;
+  background: url(../images/jaredHoopin.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+  justify-self: flex-end;
+}
+
+.wwa-personal-description {
+  width: 450px;
+  word-wrap: break-word;
+}
+
+.flex-image-2 {
+  background: url(../images/jaime.JPG) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+  justify-self: flex-end;
+}
+
+.flex-row2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+}
+
+.flex-image-3 {
+  background: url(../images/melik2.JPG) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
