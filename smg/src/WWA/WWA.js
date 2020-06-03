@@ -35,12 +35,40 @@ return(
      </div>
      <div className="WWA-person-description">
 <h1 className="wwa-personal-header"> Melik Martin </h1>
-<p className="wwa-personal-description"> a rising Senior at Monmouth University, majoring in Business Marketing. Melik graduated from York Catholic High School, where he played Varsity Basketball and was an all-county and all-district performer. Melik chose to continue his athletic career with the Monmouth Hawks, after mulling over a myriad of scholarship offers. Melik is extremely passionate about community service, marketing, and basketball. After a professional basketball career, Melik wants to run his own business and be a philanthropist.   </p>
+<p className="wwa-personal-description">  a rising Senior at Monmouth University, majoring in Business Marketing. Melik graduated from York Catholic High School, where he played Varsity Basketball and was an all-county and all-district performer. Melik chose to continue his athletic career with the Monmouth Hawks, after mulling over a myriad of scholarship offers. Melik is extremely passionate about community service, marketing, and basketball. After a professional basketball career, Melik wants to run his own business and be a philanthropist.   </p>
+     </div>
+   </div>
+    
+   <div className="flex-row2">
+     <div className="flex-image-4">
+     </div>
+     <div className="WWA-person-description">
+<h1 className="wwa-personal-header"> Jalen Gorham </h1>
+<p className="wwa-personal-description"> a rising Sophomore at Saint Michael’s College, majoring in Business Administration with minors in Political Science and Accounting. Jalen graduated from the MacDuffie School in MA, where he played on a nationally-ranked basketball team. Earlier in his high school career, Mr. Gorham was an all-state performer and district champion at York Country Day School. Mr. Gorham has elected to continue his playing career at Saint Michael’s, where he is a small forward for the Knights. Jalen wants to pursue professional basketball opportunities, after which he has his sights set on being an accountant or a financial advisor. 
+  </p>
+     </div>
+   </div>
+
+
+   <div className="flex-row">
+     <div className="flex-image-5">
+     </div>
+     <div className="WWA-person-description">
+<h1 className="wwa-personal-header"> Yoma Onobrakpeya </h1>
+<p className="wwa-personal-description">  a rising Senior at Drexel University, majoring in Finance. Yoma was a varsity basketball player and honor roll student at Mercersburg Academy (PA). Upon graduation, Yoma decided upon Drexel for it’s reputable co-op program, where students get to work internships as a part of their graduation requirements. Mr. Onobrakpeya has been a Dean’s List Student at Drexel’s Lebow School of Business and has secured an internship with LMI Philly. He maintains his passion for basketball by being a practice player for Drexel’s Women’s Basketball team and by participating in Big 6 intramural competition. He one day hopes to be the CEO of a Fortune 500 company.   </p>
      </div>
    </div>
     
 
-
+   <div className="flex-row2">
+     <div className="flex-image-6">
+     </div>
+     <div className="WWA-person-description">
+<h1 className="wwa-personal-header"> Torrey Thomas </h1>
+<p className="wwa-personal-description">  a success-minded Software Engineer based in Washington D.C. Torrey graduated from York Catholic High School and attended the Catholic University of America, earning a 3.3 GPA as an English major before deciding to drop-out in order to pursue a career in the ever-growing professional field of technology. In just three months, he was able to become a certified Full-Stack Software Developer in the competitive D.C. market. Torrey dedicates his time to creating websites for non-profit organizations and start-up businesses.
+ Torrey hopes to empower underrepresented communities engage in the STEM professions and hopes to become a Senior Developer at a top tech mogul. </p>
+     </div>
+   </div>
 </div>
 )
 

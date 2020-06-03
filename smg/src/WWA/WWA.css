@@ -63,3 +63,44 @@
   padding: 10px;
   justify-self: flex-end;
 }
+
+
+.flex-image-4 {
+  background: url(../images/jalen.JPG) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+  justify-self: flex-end;
+}
+
+
+.flex-image-5 {
+  background: url(../images/avatar.webp) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  width: 450px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+  justify-self: flex-end;
+}
+
+.flex-image-6 {
+  background: url(../images/ychoopin.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+  justify-self: flex-end;
+}
