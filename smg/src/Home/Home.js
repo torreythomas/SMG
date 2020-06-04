@@ -18,7 +18,9 @@ return(
             <p className="home-smg-description">
         An initiative designed to spread more positive images to the youth of Central Pennsylvania through the game of basketball and financial literacy knowledge. </p>
        <Link className="nav-link   grow  animate__animated animate_Bounce" to="/WWA"> 
-        <a className=" grow home-contact-button">Who Are We?</a> 
+        <a className=" grow home-contact-button">Who Are We?
+       
+</a> 
 </Link> 
         </div>
   <div className="home-column item2 grow dib shadow5"></div>

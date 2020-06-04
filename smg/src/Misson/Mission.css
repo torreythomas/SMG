@@ -2,6 +2,7 @@
     color: white;
     width: 100vw;
     height: 100vh;
+    margin: 10px;
 }
 
 .mission-image1{
@@ -48,24 +49,28 @@ display: flex;
 }
 
 .our-goals-container {
-    padding: 10px;
+    padding: 20px;
     display: flex;
-    margin: 10px;
+    margin: 50px;
     flex-direction: column;
     text-align: center;
-    width: 100vw;
+    width: 90vw;
+    margin-left: 80px;
     font-family: 'Fjalla One', sans-serif;
     animation: fadeInLeft;
 animation-duration: 3s;
+background-color: rgba(0,0,0,0.5);
 }
 
 .our-mission-container {
-    padding: 10px;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.5);
     display: flex;
-    margin: 10px;
+    margin: 40px;
+    margin-left: 80px;
     flex-direction: column;
     text-align: center;
-    width: 100vw;
+    width: 90vw;
     font-family: 'Fjalla One', sans-serif;
     animation: fadeInRight;
     animation-duration: 3s;
@@ -73,7 +78,8 @@ animation-duration: 3s;
 .see-more-good-in-our-community{
     text-align: center;
     margin: 15px;
-    padding: 5px;
+    padding: 15px;
+    margin-top: 50px;
     width: 100vw;
     opacity: 0;
     -moz-animation: fadein 3s ease-in 7s forwards; /* Firefox */
@@ -95,11 +101,66 @@ em {
 }
 
 .our-goals-text{
-font-size: 20px;
+    font-size: 20px;
 line-height: 3vh;
 }
 
 .mission-statement-text{
     font-size: 20px;
     line-height: 3vh;
+}
+#mission-landing-page-video-section {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+
+.link-mission {
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.link-mission-contact {
+    margin: 20px;
+    margin-right: 50px;
+    padding: 10px;
+    float: right;
+}
+
+.we-are-on-a-mission {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+.mission-video {
+    margin-top: -20px;
+}
+
+.a-meassage-from-jared{
+    text-align: center;
+}
+
+.images{
+    background: url(../images/SMG\ Day\ Flyer.jpg.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    display: flex;
+    margin-left: 25vw;
+    width: 50vw;
+    height: 90vh;
+    padding: 10px;
+}
+
+.click-to-register {
+    text-align: center;
+}
+
+.smg-home-mission {
+    display: flex;
+    justify-self: center;
 }

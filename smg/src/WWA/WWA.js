@@ -8,9 +8,10 @@ const WWA = () => {
 
 return(
  <div>
+
 <div id="WWA-landing-section">
 < Link className="grow nav-link-wwa animate__animated animate_Bounce" to="/Mission"> 
-        <a className="home-contact-button grow "> Our Mission </a> 
+        <a className="home-contact-button grow  "> Our Mission </a> 
 </Link> 
   <h1 id="who-are-we-header-main-text">
     Who We Are
