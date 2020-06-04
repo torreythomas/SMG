@@ -9,7 +9,40 @@
 #WWA-landing-section {
   height: 100vh;
   width: 100vw;
-  background-color: blue;
+  background: url(../images/purduearena.jpeg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+align-items: center;
+}
+
+
+#who-are-we-header-main-text{
+display: flex;
+align-items: center;
+justify-content: center;
+height:90vh;
+font-size: 4rem;
+margin-top: -20px;
+animation: fadeIn;
+animation-duration: 5s;
+font-family: 'Fjalla One', sans-serif;
+}
+
+#scroll-to-see{
+justify-content: center;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  margin: 20px;
+  background-color: rgba(0,0,0,0.5);
+  width: 10vw;
+  padding: 10px;
+  text-decoration: none;
 }
 
 .flex-image-1 {
@@ -23,13 +56,21 @@
   margin: 10px;
   padding: 10px;
   justify-self: flex-end;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
 }
 
 .wwa-personal-description {
   width: 450px;
   word-wrap: break-word;
+  line-height: 25px;
+  font-family: 'Fjalla One', sans-serif;
 }
 
+.wwa-personal-header{
+  font-family: 'Fjalla One', sans-serif;
+  color: goldenrod;
+}
 .flex-image-2 {
   background: url(../images/jaime.JPG) no-repeat center center;
   -webkit-background-size: cover;
@@ -41,6 +82,8 @@
   margin: 10px;
   padding: 10px;
   justify-self: flex-end;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
 }
 
 .flex-row2 {
@@ -62,6 +105,8 @@
   margin: 10px;
   padding: 10px;
   justify-self: flex-end;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
 }
 
 
@@ -76,6 +121,8 @@
   margin: 10px;
   padding: 10px;
   justify-self: flex-end;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
 }
 
 
@@ -90,10 +137,12 @@
   margin: 10px;
   padding: 10px;
   justify-self: flex-end;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
 }
 
 .flex-image-6 {
-  background: url(../images/ychoopin.jpg) no-repeat center center;
+  background: url(../images/torr.jpeg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -103,4 +152,42 @@
   margin: 10px;
   padding: 10px;
   justify-self: flex-end;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.flex-image-7 {
+  background: url(../images/kevinduncan.jpeg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+  justify-self: flex-end;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
+}
+
+.nav-link-wwa {
+  width: 90vw;
+  text-align: right;
+  margin-right: 10vw;
+  margin-top: 20px;
+  color: goldenrod;
+  text-decoration: none;
 }
