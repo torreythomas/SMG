@@ -1,0 +1,105 @@
+#mission-container {
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mission-image1{
+    background: url(../images/FullSizeRender.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50vw;
+    height: 30vh;
+}
+
+.mission-image2{
+    background: url(../images/smg.JPG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50vw;
+    height: 30vh;
+}
+
+.mission-image3{
+    background: url(../images/jared.JPG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50vw;
+    height: 30vh;
+}
+
+.mission-image4{
+    background: url(../images/717day.JPG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50vw;
+    height: 30vh;
+}
+.photo-container {
+display: flex;
+}
+
+.our-goals-container {
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    font-family: 'Fjalla One', sans-serif;
+    animation: fadeInLeft;
+animation-duration: 3s;
+}
+
+.our-mission-container {
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    font-family: 'Fjalla One', sans-serif;
+    animation: fadeInRight;
+    animation-duration: 3s;
+}
+.see-more-good-in-our-community{
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    width: 100vw;
+    opacity: 0;
+    -moz-animation: fadein 3s ease-in 7s forwards; /* Firefox */
+    -webkit-animation: fadein 3s ease-in 7s forwards; /* Safari and Chrome */
+    -o-animation: fadein 3s ease-in 7s forwards; /* Opera */
+    animation: fadeIn 3s ease-in 5s forwards;
+}
+
+em {
+    color: goldenrod;
+}
+
+.mission-statement-header {
+    color: goldenrod;
+}
+
+.our-goals-header {
+    color: goldenrod;
+}
+
+.our-goals-text{
+font-size: 20px;
+line-height: 3vh;
+}
+
+.mission-statement-text{
+    font-size: 20px;
+    line-height: 3vh;
+}
