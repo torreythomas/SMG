@@ -3,29 +3,43 @@ import "./Mission.css"
 import { Link } from "react-router-dom";
 import video from '../images/JaredFacts.mp4'
 import video2 from '../images/yoma.MOV'
+import video3 from '../images/WeBeHoopin.mp4'
 import image from "../images/SMG\ Day\ Flyer.jpg.jpeg"
 
 
 const Mission = () => {
     return (
         <div>
+<div id="Mission-landing-section">
+<div className="mission-navigation-bar">
 < Link className="  link-mission animate__animated animate_Bounce" to="/WWA"> 
-          <p className=" grow shadow-5 link-mission home-contact-button"> Who we are </p> 
+          <p className=" grow shadow-5 link-mission home-contact-button"> We Are </p> 
 </Link> 
-< Link className=" nav-link-wwa link-mission animate__animated animate_Bounce" to="/WWA"> 
-          <p className=" grow shadow-5 link-mission-contact home-contact-button"> Contact </p> 
+< Link className="   animate__animated animate_Bounce" to="/WWA"> 
+          <p className=" grow shadow-5  home-contact-button"> Contact </p> 
 </Link> 
-        <div id="mission-container ">
+</div>
+
+<h1 id="who-are-we-header-main-text" style={{color:"black"}}>
+    Our Mission
+  </h1>
+</div>
+        <div id="mission-container">
         <h1 className="we-are-on-a-mission"> We Are On A Mission </h1>
         <p className="a-meassage-from-jared"> <em>A message from Jared Young of the SMG family on the education system.</em></p>
-        <span role="img"  description="aria-label" className="smg-home-mission"> 🌐  </span>
-
+       <div className="mission-statement-container">
         <div id="mission-landing-page-video-section">
         <video className="mission-video" className="shadow-5 dib" width="720" height="540"  controls>
   <source src={video} type="video/mp4"/>
   <source src={video}  type="video/mp4"/>
 Your browser does not support the video tag.
 </video>
+         </div>
+         <div id="mission-landing-page-video-section">
+        <div className="mission-image3-video-section grow">
+                    
+                    </div>
+         </div>
          </div>
             <div className="photo-container  ba bw4 shadow-5">
                 <div className=" mission-image1 grow">
