@@ -29,15 +29,21 @@ const Mission = () => {
 
 
 <div className="see-more-good-day-registration">
-    <div className="smgday-description"> 
-        <h1 style={{color:"goldenrod"}}> See More Good Day</h1>
-        <p className="smg-day-text"> SMG day is an event we are hosting to enlighten and uplift our youth through basketball, financial literacy, and injury prevention. The event is for boys grades 4-10 and girls middle school. If this interests you, take a moment and click the picture to the right and fill out our google registration form.</p>
-    </div>
     <div>
-<h1 style={{color:"goldenrod"}}> Upcoming Event</h1>
+<h1 style={{color:"white", margin:"70px"}}> Upcoming Events </h1>
+<div className="smgday-description grow shadow-5"> 
+        <h1 style={{color:"goldenrod"}}> See More Good Day</h1>
+        <p className="smg-day-text"> SMG day is an event we are hosting to enlighten and uplift our youth through basketball, financial literacy, and injury prevention. The event is for boys grades 4-10 and girls middle school. If this interests you, take a moment and click on the picture above and fill out our google registration form.</p>
+    </div>
+</div>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSevvWnoGsAQdbIRw_5L8AhkE2bK7pI4bAFIwWvvkqTY-XEc-g/viewform"><div className="mission-image-smg-fund "></div>  </a>       
+
 </div>
 
+
+<div className="social-media-content">
+    <h1 className="instagram-label" style={{textAlign:"center"}}> Follow our Instagram page for the latest updates and activity </h1>
+    <div className="mission-image-instagram"></div> 
 </div>
         <div id="mission-container">
        <div className="mission-statement-container">
@@ -65,10 +71,8 @@ Your browser does not support the video tag.
         </p>
         </div>
         </div>
-        <div className="overlay">
-        </div>
         <div className="difference-container">
-    <h1 className="about-us">Our <em style={{color:"goldenrod"}}> goals</em> at SMG.</h1>
+    <h1 className="about-us">Our <em style={{color:"goldenrod"}}> goals</em> at SMG</h1>
         <div className="our-goals-container grow shadow-5">
 
         <h1 className="our-goals-header"><u> Goals</u> </h1>
@@ -76,11 +80,9 @@ Your browser does not support the video tag.
         We will use the game of basketball to provide an outlet to our youth so that they can escape violence, negativity, financial illiteracy, and division. We will hold events that bring our community light, happiness, and fun. We will allow everyone who comes in contact with our organization to see the good in life. 
         </p>
         </div>
-    
             </div>
-         
             <div className="standard-container">
-    <h1 className="about-us"> We are driven by our <em style={{color:"goldenrod"}}> mission. </em></h1>
+    <h1 className="about-us"> We are driven by our <em style={{color:"goldenrod"}}> mission </em></h1>
 
             <div className="our-mission-container grow shadow-5">
         <h1 className="mission-statement-header"><u> Mission</u> </h1>
@@ -89,8 +91,7 @@ Your browser does not support the video tag.
         </p>
         </div>
         </div>
-        <div className="overlay">
-        </div>
+           
 
 
      
