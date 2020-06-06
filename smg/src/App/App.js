@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from '../Home/Home'
 import Mission from '../Misson/Mission'
+import Contact from '../Contact/Contact'
 import 'tachyons'
 import styled from "styled-components";
 import WWA from '../WWA/WWA'
@@ -22,6 +23,7 @@ function App({location}) {
             <Route path="/" exact component={Home} />
             <Route path="/WWA" exact component={WWA} />
             <Route path="/Mission" exact component={Mission} />
+            <Route path="/Contact" exact component={Contact} />
             </Switch>
             </section>
             </CSSTransition>

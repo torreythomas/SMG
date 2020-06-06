@@ -2,9 +2,6 @@ import React from 'react';
 import "./Mission.css"
 import { Link } from "react-router-dom";
 import video from '../images/JaredFacts.mp4'
-import video2 from '../images/yoma.MOV'
-import video3 from '../images/WeBeHoopin.mp4'
-import Scroll from '../Scroll'
 
 
 const Mission = () => {
@@ -15,7 +12,7 @@ const Mission = () => {
 < Link className="  link-mission animate__animated animate_Bounce" to="/WWA"> 
           <p className=" grow shadow-5 link-mission home-contact-button"> We Are </p> 
 </Link> 
-< Link className="animate__animated animate_Bounce" to="/WWA"> 
+< Link className="animate__animated animate_Bounce" to="/Contact"> 
           <p className=" grow shadow-5  home-contact-button"> Contact </p> 
 </Link> 
 </div>
@@ -102,7 +99,7 @@ Your browser does not support the video tag.
 < Link className="  link-mission animate__animated animate_Bounce" to="/WWA"> 
           <p className=" grow shadow-5 link-mission home-contact-button"> We Are </p> 
 </Link> 
-< Link className="animate__animated animate_Bounce" to="/WWA"> 
+< Link className="animate__animated animate_Bounce" to="/Contact"> 
           <p className=" grow shadow-5  home-contact-button"> Contact </p> 
 </Link> 
 </div>

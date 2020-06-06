@@ -1,0 +1,42 @@
+#myvideo{
+    position: fixed;
+    right: 10;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -10;
+}
+.navigation-bar-centered{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.contact {
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 130px;
+
+
+}
+.contact-label-flex-item{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 20px;
+    color: white;
+}
+.video-overlay{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    right: 10;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -9;
+}

@@ -235,7 +235,7 @@ line-height: 3vh;
     height: 50vh;
     font-size: 20px;
     animation: fadeInLeft;
-    animation-duration: 5s;
+    animation-duration: 2s;
 }
 .smg-day-text{
     font-size: 17px;
@@ -252,7 +252,7 @@ line-height: 3vh;
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
     animation: fadeIn;
-    animation-duration: 12s;
+    animation-duration: 2s;
 }
 .mission-image-instagram{
     background: url(../images/instagram.png) no-repeat center center;
