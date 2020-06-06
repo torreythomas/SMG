@@ -30,7 +30,6 @@ const Mission = () => {
 
 <div className="see-more-good-day-registration">
     <div>
-<h1 style={{color:"white", margin:"70px"}}> Upcoming Events </h1>
 <div className="smgday-description grow shadow-5"> 
         <h1 style={{color:"goldenrod"}}> See More Good Day</h1>
         <p className="smg-day-text"> SMG day is an event we are hosting to enlighten and uplift our youth through basketball, financial literacy, and injury prevention. The event is for boys grades 4-10 and girls middle school. If this interests you, take a moment and click on the picture above and fill out our google registration form.</p>
@@ -43,7 +42,7 @@ const Mission = () => {
 
 <div className="social-media-content">
     <h1 className="instagram-label" style={{textAlign:"center"}}> Follow our Instagram page for the latest updates and activity </h1>
-    <div className="mission-image-instagram"></div> 
+    <a className="grow shadow-5" href="https://www.instagram.com/smg.foundation/?hl=en"> <div className="mission-image-instagram"></div>   </a>       
 </div>
         <div id="mission-container">
        <div className="mission-statement-container">

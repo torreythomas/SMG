@@ -17,6 +17,7 @@ display: flex;
 }
 .mission-statement-container{
     display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .our-goals-header {
     color: goldenrod;
@@ -79,7 +80,6 @@ line-height: 3vh;
     padding: 20px;
     margin: 20px;
     animation: fadeInLeft;
-    
   }
 .mission-image1{
     background: url(../images/IMG_3688-removebg-preview.png) no-repeat center center;
@@ -193,6 +193,7 @@ line-height: 3vh;
     text-align: center;
     background-color:#1a1a1a;
     align-items: center;
+    justify-content: center;
     font-family: 'Fjalla One', sans-serif;
     background: url(../images/weworking.jpeg) no-repeat center center;
     -webkit-background-size: cover;
@@ -230,7 +231,10 @@ line-height: 3vh;
     background-color: rgba(0, 0, 0, 0.8);
     padding:30px;
     width: 50vw;
+    height: 50vh;
     font-size: 20px;
+    animation: fadeInLeft;
+    animation-duration: 5s;
 }
 .smg-day-text{
     font-size: 17px;
@@ -246,6 +250,8 @@ line-height: 3vh;
     justify-content: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
+    animation: fadeIn;
+    animation-duration: 12s;
 }
 .mission-image-instagram{
     background: url(../images/instagram.png) no-repeat center center;
@@ -255,4 +261,10 @@ line-height: 3vh;
     background-size: contain;
     width: 100vw;
     height: 50vh; 
+}
+.instagram-label{
+    font-family: 'Fjalla One', sans-serif;
+    padding: 10px;
+    color: goldenrod;
+    text-decoration: underline;
 }
