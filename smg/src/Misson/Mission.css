@@ -1,123 +1,42 @@
-
-
-
-#mission-container {
-    color: white;
-    width: 100vw;
+#Mission-landing-section {
     height: 100vh;
-    margin: 10px;
-}
-
-.mission-image1{
-    background: url(../images/FullSizeRender.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 50vw;
-    height: 30vh;
-}
-
-.mission-image2{
+    width: 100vw;
     background: url(../images/smg.JPG) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 50vw;
-    height: 30vh;
-}
-
-.mission-image3{
-    background: url(../images/jared.JPG) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 50vw;
-    height: 30vh;
-}
-
-.mission-image3-video-section{
-    background: url(../images/jared.JPG) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 30vw;
-    height: 60vh;
-}
-
-.mission-image4{
-    background: url(../images/717day.JPG) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 50vw;
-    height: 30vh;
-}
+    display: flex;
+    flex-direction: column;
+    display: flex;
+  align-items: center;
+  }
 .photo-container {
 display: flex;
 }
-
-.mission-navigation-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-    width: 100vw;
-    background-color: transparent;
-}
-
-
-#Mission-landing-section {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    display: flex;
-  align-items: center;
-  }
-  
-
-#navigation-header-text {
-    font-family: 'Fjalla One', sans-serif;
-}
-
-.video-container-main {
-    width: 100vw;
-    height: 100vh;
-}
-
-#myVideo {
-    position:absolute;
-    z-index: -1;
-    width: 100vw;
-    margin: 0px;
-    padding: 0px;
-    height: 100vh;
-}
-
 .mission-statement-container{
-display: flex;
+    display: flex;
 }
-
-#Mission-landing-section {
-    height: 100vh;
-    width: 100vw;
-    background: url(../images/blacksballin.jpeg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.our-goals-header {
+    color: goldenrod;
+}
+.our-goals-text{
+    font-size: 20px;
+line-height: 3vh;
+}
+.our-mission-container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
+    margin: 40px;
+    margin-left: 80px;
     flex-direction: column;
-    display: flex;
-  align-items: center;
-  }
-  
-
+    text-align: center;
+    width: 90vw;
+    font-family: 'Fjalla One', sans-serif;
+    animation: fadeInRight;
+    animation-duration: 3s;
+} 
 .our-goals-container {
     padding: 20px;
     display: flex;
@@ -131,50 +50,16 @@ display: flex;
 animation-duration: 3s;
 background-color: rgba(0,0,0,0.5);
 }
-
-.our-mission-container {
-    padding: 20px;
-    background-color: rgba(128, 128, 128, 0.5);
-    display: flex;
-    margin: 40px;
-    margin-left: 80px;
-    flex-direction: column;
-    text-align: center;
-    width: 90vw;
-    font-family: 'Fjalla One', sans-serif;
-    animation: fadeInRight;
-    animation-duration: 3s;
-}
-.see-more-good-in-our-community{
-    text-align: center;
-    margin: 15px;
-    padding: 15px;
-    margin-top: 50px;
-    width: 100vw;
-    opacity: 0;
-    -moz-animation: fadein 3s ease-in 7s forwards; /* Firefox */
-    -webkit-animation: fadein 3s ease-in 7s forwards; /* Safari and Chrome */
-    -o-animation: fadein 3s ease-in 7s forwards; /* Opera */
-    animation: fadeIn 3s ease-in 5s forwards;
-}
-
-em {
-    color: goldenrod;
-}
-
 .mission-statement-header {
     color: goldenrod;
 }
-
 .our-goals-header {
     color: goldenrod;
 }
-
 .our-goals-text{
     font-size: 20px;
 line-height: 3vh;
 }
-
 .mission-statement-text{
     font-size: 20px;
     line-height: 3vh;
@@ -183,41 +68,48 @@ line-height: 3vh;
     width: 100vw;
     height: 80vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items:center;
     padding: 20px;
     margin: 20px;
+    animation: fadeInLeft;
+    
   }
-
-
-
-
-.we-are-on-a-mission {
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-}
-.mission-video {
-    margin-top: -20px;
-}
-
-.a-meassage-from-jared{
-    text-align: center;
-}
-
-.images{
-    display: flex;
-    margin-left: 25vw;
-    width: 50vw;
+.mission-image1{
+    background: url(../images/SMG\ Day\ Flyer.jpg.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    width: 100vw;
+    margin-top:50px;
+    padding: 10px;
     height: 80vh;
+}
+.italic-quote-from-jared{
+   color: whitesmoke;
+   animation: fadeIn;
+}
+.goals-and-mission-container{
+    display: flex;
+}
+#upcoming-events-section{
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    background-color: rgb(37, 37, 37);
+}
+.mission-landing-page-video-section-description{
+    margin: 10px;
     padding: 10px;
 }
+.mission-landing-page-video-section-description-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 
-.click-to-register {
-    text-align: center;
 }
-
-.smg-home-mission {
-    display: flex;
-    justify-self: center;
+.huh{
+    background-color: rgb(59, 59, 59);
+    padding: 20px;
 }
