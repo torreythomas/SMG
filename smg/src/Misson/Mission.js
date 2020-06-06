@@ -20,7 +20,8 @@ const Mission = () => {
 </Link> 
 </div>
 
-<h1 id="who-are-we-header-main-text" style={{color:"white", marginTop:"-180px"}}>
+<h1 id="who-are-we-header-main-text" style={{color:"white", marginTop:"-180px", marginLeft:"75px"
+}}>
     Our Mission 
   </h1>
 </div>
@@ -43,6 +44,7 @@ Your browser does not support the video tag.
          </div>
          </div>
 <div className="huh">
+    <h1 className="about-us"> Be the<em style={{color:"goldenrod"}}> change.</em> Be the <em style={{color:"goldenrod"}}>difference.</em> Set the <em style={{color:"goldenrod"}}>standard.</em></h1>
          <div className="our-mission-container grow shadow-5">
         <h1 className="mission-statement-header"><u> See More Good </u> </h1>
         <p className="mission-statement-text">
@@ -65,16 +67,18 @@ Your browser does not support the video tag.
         </div>
         </div>
         </div>
-         
-         <div id="upcoming-events-section">
-<h1 style={{textAlign:"center"}}> <strong>Upcoming Events </strong></h1>             
-<div className="mission-image1 grow">
-    </div>
 
-   
-  
-         </div>
 
+       <div className="highlight-reel-container">
+           <div className="smg-logo-flex-box">
+           <div className="mission-image1">
+</div>
+<div className="mission-image2">
+</div>
+           </div>
+
+
+       </div>
 
         </div>
         </div>

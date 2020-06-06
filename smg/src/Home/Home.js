@@ -10,8 +10,6 @@ return(
    <section className="home-main-section-container">
    <div className="home-flex-container">
         <div className="home-column item1"> 
-        <span role="img"  description="aria-label" className="smg-home"> 🌐  </span>
-
             <h1 className=" home-smg-title see  animate__animated"> <b className="S">S</b>.EE</h1>
             <h1 className="home-smg-title more"> <b className="S">M</b>.ORE</h1>
             <h1 className="home-smg-title good"> <b className="S">G</b>.OOD</h1>

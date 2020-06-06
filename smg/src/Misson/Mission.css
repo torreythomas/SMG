@@ -51,10 +51,10 @@ animation-duration: 3s;
 background-color: rgba(0,0,0,0.5);
 }
 .mission-statement-header {
-    color: goldenrod;
+    color: white;
 }
 .our-goals-header {
-    color: goldenrod;
+    color: white;
 }
 .our-goals-text{
     font-size: 20px;
@@ -77,15 +77,25 @@ line-height: 3vh;
     
   }
 .mission-image1{
-    background: url(../images/SMG\ Day\ Flyer.jpg.jpeg) no-repeat center center;
+    background: url(../images/IMG_3688.JPG) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain;
-    width: 100vw;
-    margin-top:50px;
+    width: 40vw;
     padding: 10px;
-    height: 80vh;
+    height: 30vh;
+}
+
+.mission-image2{
+    background: url(../images/IMG_3689\ 2.JPG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    width: 40vw;
+    padding: 10px;
+    height: 30vh;
 }
 .italic-quote-from-jared{
    color: whitesmoke;
@@ -112,4 +122,24 @@ line-height: 3vh;
 .huh{
     background-color: rgb(59, 59, 59);
     padding: 20px;
+}
+.about-us{
+    text-align: center;
+    margin-left: 130px;
+}
+.highlight-reel-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.picture-grid-mission{
+    display: flex;
+    flex-direction: column;
+}
+.smg-logo-flex-box{
+    display: flex;
+
 }
