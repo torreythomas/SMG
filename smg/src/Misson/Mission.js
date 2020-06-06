@@ -24,9 +24,21 @@ const Mission = () => {
 }}>
     Our Mission 
   </h1>
+  
 </div>
 
 
+<div className="see-more-good-day-registration">
+    <div className="smgday-description"> 
+        <h1 style={{color:"goldenrod"}}> See More Good Day</h1>
+        <p className="smg-day-text"> SMG day is an event we are hosting to enlighten and uplift our youth through basketball, financial literacy, and injury prevention. The event is for boys grades 4-10 and girls middle school. If this interests you, take a moment and click the picture to the right and fill out our google registration form.</p>
+    </div>
+    <div>
+<h1 style={{color:"goldenrod"}}> Upcoming Event</h1>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSevvWnoGsAQdbIRw_5L8AhkE2bK7pI4bAFIwWvvkqTY-XEc-g/viewform"><div className="mission-image-smg-fund "></div>  </a>       
+</div>
+
+</div>
         <div id="mission-container">
        <div className="mission-statement-container">
         <div id="mission-landing-page-video-section">
@@ -43,38 +55,59 @@ Your browser does not support the video tag.
 </video>
          </div>
          </div>
-<div className="huh">
-    <h1 className="about-us"> Be the<em style={{color:"goldenrod"}}> change.</em> Be the <em style={{color:"goldenrod"}}>difference.</em> Set the <em style={{color:"goldenrod"}}>standard.</em></h1>
-         <div className="our-mission-container grow shadow-5">
+<div className="change-container">
+<div className="mission-image1"></div>         
+<div className="our-mission-container grow shadow-5">
         <h1 className="mission-statement-header"><u> See More Good </u> </h1>
         <p className="mission-statement-text">
         SMG is an initiative designed to spread more positive images to the youth of Central Pennsylvania through the game of basketball. SMG also aims to empower the next generation with financial literacy knowledge. SMG is a lifestyle, a commitment to learn, improve, and dominate in every aspect of life. 
         
         </p>
         </div>
-        <div className="goals-and-mission-container">
-         <div className="our-goals-container grow shadow-5">
+        </div>
+        <div className="overlay">
+        </div>
+        <div className="difference-container">
+    <h1 className="about-us">Our <em style={{color:"goldenrod"}}> goals</em> at SMG.</h1>
+        <div className="our-goals-container grow shadow-5">
+
         <h1 className="our-goals-header"><u> Goals</u> </h1>
         <p className="our-goals-text">
         We will use the game of basketball to provide an outlet to our youth so that they can escape violence, negativity, financial illiteracy, and division. We will hold events that bring our community light, happiness, and fun. We will allow everyone who comes in contact with our organization to see the good in life. 
         </p>
         </div>
-        <div className="our-mission-container grow shadow-5">
+    
+            </div>
+         
+            <div className="standard-container">
+    <h1 className="about-us"> We are driven by our <em style={{color:"goldenrod"}}> mission. </em></h1>
+
+            <div className="our-mission-container grow shadow-5">
         <h1 className="mission-statement-header"><u> Mission</u> </h1>
         <p className="mission-statement-text">
         The cup of life can either be half-full or half-empty, it’s all about perspective. We at SMG choose to see the good in life, and our mission is to spread optimism and hope to the youth of central Pennsylvania through the game of basketball. 
         </p>
         </div>
         </div>
+        <div className="overlay">
         </div>
 
 
+     
+
        <div className="highlight-reel-container">
            <div className="smg-logo-flex-box">
-           <div className="mission-image1">
-</div>
 <div className="mission-image2">
 </div>
+<div className="mission-navigation-bar">
+< Link className="  link-mission animate__animated animate_Bounce" to="/WWA"> 
+          <p className=" grow shadow-5 link-mission home-contact-button"> We Are </p> 
+</Link> 
+< Link className="animate__animated animate_Bounce" to="/WWA"> 
+          <p className=" grow shadow-5  home-contact-button"> Contact </p> 
+</Link> 
+</div>
+
            </div>
 
 
