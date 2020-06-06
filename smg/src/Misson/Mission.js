@@ -49,8 +49,7 @@ const Mission = () => {
         <div id="mission-landing-page-video-section">
             <div className="mission-landing-page-video-section-description">
                <h1> We believe change begins with <em style={{color:"goldenrod"}}>education. </em> </h1>
-               <p className="mission-landing-page-video-section-description-text"> There is no limit to the potential of a kid given a chance. We seek to use basketball and education
-                   to influence a new standard in our community. 
+               <p className="mission-landing-page-video-section-description-text">  A statement from Jared Young on the education system
                </p>
             </div>
         <video className="mission-video" className="shadow-5 dib" width="720" height="540"  controls>
