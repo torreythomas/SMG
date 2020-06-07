@@ -29,7 +29,7 @@ const Mission = () => {
     <div>
 <div className="smgday-description grow shadow-5"> 
         <h1 style={{color:"goldenrod"}}> See More Good Day</h1>
-        <p className="smg-day-text"> SMG day is an event we are hosting to enlighten and uplift our youth through basketball, financial literacy, and injury prevention. The event is for boys grades 4-10 and girls middle school. If this interests you, take a moment and click on the picture above and fill out our google registration form.</p>
+        <p className="smg-day-text"> SMG day is an event we are hosting to enlighten and uplift our youth through basketball, financial literacy, and injury prevention. The event is for boys grades 4-10 and girls middle school. If this interests you, take a moment and click on the picture to the right and fill out our google registration form.</p>
     </div>
 </div>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSevvWnoGsAQdbIRw_5L8AhkE2bK7pI4bAFIwWvvkqTY-XEc-g/viewform"><div className="mission-image-smg-fund "></div>  </a>       
@@ -37,19 +37,12 @@ const Mission = () => {
 </div>
 
 
-<div className="social-media-content">
-    <h1 className="instagram-label" style={{textAlign:"center"}}> Follow our Instagram page for the latest updates and activity </h1>
-    <a className="grow shadow-5" href="https://www.instagram.com/smg.foundation/?hl=en"> <div className="mission-image-instagram"></div>   </a>       
-</div>
+\
         <div id="mission-container">
        <div className="mission-statement-container">
         <div id="mission-landing-page-video-section">
-            <div className="mission-landing-page-video-section-description">
-               <h1> We believe change begins with <em style={{color:"goldenrod"}}>education. </em> </h1>
-               <p className="mission-landing-page-video-section-description-text">  A statement from Jared Young on the education system
-               </p>
-            </div>
-        <video className="mission-video" className="shadow-5 dib" width="720" height="540"  controls>
+<h1 className="fading-in-left"> Hear Jared Young's comments on education system reform</h1>
+        <video className="mission-video" className="shadow-5 dib" width="800px" height="800px"  controls>
   <source src={video} type="video/mp4"/>
   <source src={video}  type="video/mp4"/>
 Your browser does not support the video tag.

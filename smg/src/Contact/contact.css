@@ -9,15 +9,17 @@
 .navigation-bar-centered{
     display: flex;
     justify-content: center;
-    margin: 15px;
+    align-items: center;
 }
 .contact {
     font-size: 5em;
     text-align: center;
+    width: 100vw;
     font-family: 'Fjalla One', sans-serif;
-    margin-left: 130px;
-
-
+    margin-left: 150px;
+    animation: fadeIn;
+    animation-duration: 8s;
+    color: goldenrod;
 }
 .contact-label-flex-item{
     justify-content: center;
@@ -26,7 +28,6 @@
     flex-direction: row;
     width: 100vw;
     height: 100vh;
-    margin-left: 20px;
     color: white;
 }
 .video-overlay{
@@ -39,4 +40,27 @@
     min-width: 100vw;
     min-height: 100vh;
     z-index: -9;
+}
+.contact-smg-container{
+    width: 100vw;
+    height: 130vh;
+    background-color: #1a1a1a;
+}
+.mission-statement-text-contact{
+    font-size: 20px;
+    line-height: 2em;
+}
+.smg-questions{
+    font-size: 20px;
+    line-height: 3em;
+}
+.standard-container-2{
+    background-color: rgb(59, 59, 59);
+    padding: 90px;
+    display: flex;
+    background: url(../images/hooperss.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
